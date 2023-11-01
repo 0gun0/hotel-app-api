@@ -1,6 +1,7 @@
 import Hotel from "../models/Hotel.js"; //이거?!?!
 
 
+// 함수 컨트롤러 
 export const createHotel = async (req, res, next)=>{
     const newHotel = new Hotel(req.body)
 
